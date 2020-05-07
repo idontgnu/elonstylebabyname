@@ -1,4 +1,4 @@
-document.getElementById("generate-names").addEventListener('submit',generate);
+document.getElementById("Generate_it").addEventListener('click',generate);
 
 
 function generate_random_string(string_length){
@@ -20,8 +20,6 @@ function generate_random_string(string_length){
 	}
 	return random_string;
     }
-		
-
 
 function generate_random_number(){
     var num_low = 0;
@@ -31,7 +29,6 @@ function generate_random_number(){
 
 function generate() {
     return random_name = generate_random_string(generate_random_number()+1) + generate_random_number();
-	
 
 }
 
