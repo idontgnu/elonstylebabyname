@@ -1,6 +1,6 @@
 body {
-    /* background: #56CCF2;  */
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    background: #56CCF2;
+    background-image: linear-gradient(to right, #43e67d 0%, #38f9d7 100%);
 }
 .content {
     margin-top: 40px;
@@ -18,7 +18,7 @@ form {
 
 .list {
     list-style: none;
-    width: 80%;
+    width: 30%;
     text-align: center;
     margin: 0 auto;
     padding: 20px;
