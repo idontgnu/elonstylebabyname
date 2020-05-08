@@ -28,17 +28,14 @@ function generate_random_number(){
 }
 
 function generate() {
-    return random_name = generate_random_string(generate_random_number()+1) + generate_random_number();
-
+    return random_name = generate_random_string(generate_random_number()+3) + generate_random_number();
+	
 }
 
 console.log(generate());
 document.getElementById("generate-names").onclick = function(){
-var html='<h2>Your New Baby Name:</h2>';
-            html+='<ul class="list">';
-                html+=`
-                <li>${random_name}</li>
-                `;
-            html+='</ul>'
+var html='<ul class="list">';
+                html+=`<li>${random_name}</li>`;
+            html+='</ul>';
             document.querySelector('#result').innerHTML=html;
 }
